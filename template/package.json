@@ -97,8 +97,13 @@
     "webpack": "^2.3.3",
     "webpack-dev-middleware": "^1.10.0",
     "webpack-hot-middleware": "^2.18.0",
-    "webpack-merge": "^4.1.0"
-  },
+    "webpack-merge": "^4.1.0"{{#if_or unit e2e}},
+    "pre-push": "^0.1.1"{{/if_or}}
+  },{{#if_or unit e2e}}
+  "pre-push": [{{#unit}}
+    "test"{{#e2e}},{{/e2e}}{{/unit}}{{#e2e}}
+    "e2e"{{/e2e}}
+  ],{{/if_or}}
   "engines": {
     "node": ">= 4.0.0",
     "npm": ">= 3.0.0"
