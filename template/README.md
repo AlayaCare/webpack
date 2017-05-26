@@ -2,6 +2,8 @@
 
 > {{ description }}
 
+> This project includes Bootstrap v3.3.7, Font Awesome v4.7.0 and jQuery v3.2.1
+
 ## Build Setup
 
 ``` bash

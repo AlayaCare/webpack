@@ -1,8 +1,10 @@
 # vue-webpack-boilerplate
 
-> A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
+> A full-featured Webpack setup with hot-reload, lint-on-save, unit testing and css extraction.
 
-> This template is Vue 2.0 compatible. For Vue 1.x use this command: `vue init webpack#1.0 my-project`
+> The development environment includes Bootstrap v3.3.7, Font Awesome v4.7.0 and jQuery v3.2.1 
+
+> This template is Vue 2.0 compatible.
 
 ## Documentation
 
