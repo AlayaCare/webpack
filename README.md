@@ -2,7 +2,9 @@
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing and css extraction.
 
-> The development environment includes Bootstrap v3.3.7, Font Awesome v4.7.0 and jQuery v3.2.1 
+> The development environment includes Bootstrap v3.3.7, Font Awesome v4.7.0 and jQuery v3.2.1.
+ 
+> Translation support included (with plugin [vue-i18n](https://github.com/kazupon/vue-i18n))
 
 > This template is Vue 2.0 compatible.
 

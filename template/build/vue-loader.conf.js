@@ -9,5 +9,8 @@ module.exports = {
       ? config.build.productionSourceMap
       : config.dev.cssSourceMap,
       extract: isProduction && !isForDistribution
-  })
+  }),
+  {
+    i18n: '@kazupon/vue-i18n-loader'
+  }
 }
