@@ -6,6 +6,8 @@
 
 > Translation support included (with plugin [vue-i18n](https://github.com/kazupon/vue-i18n))
 
+> Less and less-loader already added as dependencies.
+
 ## Build Setup
 
 ``` bash
