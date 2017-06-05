@@ -6,6 +6,8 @@
 
 > Translation support included (with plugin [vue-i18n](https://github.com/kazupon/vue-i18n))
 
+> Form validation support included (with plugin [simple-vue-validator](https://github.com/semisleep/simple-vue-validator))
+
 > Less and less-loader already added as dependencies.
 
 ## Build Setup

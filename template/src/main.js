@@ -7,8 +7,17 @@ import App from './App'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{#router}}
 import router from './router'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 {{/router}}
+import VueI18n from 'vue-i18n'{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+var SimpleVueValidation = require('simple-vue-validator'){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
+Vue.use(VueI18n){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+Vue.use(SimpleVueValidation){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 Vue.config.productionTip = false{{#if_eq lintConfig "airbnb"}};{{/if_eq}}
+
+// Create VueI18n instance with options
+const i18n = new VueI18n({
+  locale: 'en'{{#if_eq lintConfig "airbnb"}},{{/if_eq}}
+}){{#if_eq lintConfig "airbnb"}};{{/if_eq}}
 
 /* eslint-disable no-new */
 new Vue({
@@ -16,6 +25,7 @@ new Vue({
   {{#router}}
   router,
   {{/router}}
+  i18n,
   {{#if_eq build "runtime"}}
   render: h => h(App){{#if_eq lintConfig "airbnb"}},{{/if_eq}}
   {{/if_eq}}

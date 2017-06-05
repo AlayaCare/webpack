@@ -16,6 +16,7 @@
     "lint": "eslint --ext .js,.vue src{{#unit}} test/unit/specs{{/unit}}{{#e2e}} test/e2e/specs{{/e2e}}"{{/lint}}
   },
   "dependencies": {
+    "simple-vue-validator": "^0.13.2",
     "vue": "^2.2.6",
     "vue-i18n": "6.1.1"{{#router}},
     "vue-router": "^2.3.1"{{/router}}
