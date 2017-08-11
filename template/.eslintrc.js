@@ -33,6 +33,7 @@ module.exports = {
   {{/if_eq}}
   // add your custom rules here
   'rules': {
+    'camelcase': 0,
     {{#if_eq lintConfig "standard"}}
     // allow paren-less arrow functions
     'arrow-parens': 0,
